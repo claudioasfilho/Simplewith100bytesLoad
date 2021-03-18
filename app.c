@@ -35,6 +35,84 @@ SL_WEAK void app_init(void)
   /////////////////////////////////////////////////////////////////////////////
 }
 
+
+
+#define ARRAYSIZE 100
+
+#define TIMINGTOUPDATE 246
+
+static uint8_t customCharData[ARRAYSIZE];
+static uint8_t ConnectionHandle;
+static uint16_t NotificationsEnabled =0;
+
+
+void updateCustomData(uint8_t data)
+{
+
+  int i;
+  for (i=0; i<ARRAYSIZE; i++)
+    {
+      customCharData[i] = i;
+    }
+
+  sl_bt_gatt_server_write_attribute_value(gattdb_customChar,
+                                          0,
+                                           sizeof(customCharData),
+                                           &customCharData
+                                           );
+
+  sl_app_log((char)customCharData);
+  sl_app_log("\r\n");
+}
+
+void fillCustomData()
+{
+
+
+  for (int i=0; i<ARRAYSIZE; i++)
+    {
+      customCharData[i] = i;
+    }
+
+  sl_bt_gatt_server_write_attribute_value(gattdb_customChar,
+                                          0,
+                                           sizeof(customCharData),
+                                           &customCharData
+                                           );
+
+  printf("Data: %s \r\n",customCharData);
+}
+
+
+
+
+void sendNotification()
+{
+static uint32_t NotiCounter = 0;
+
+customCharData[99] = (NotiCounter & 0xff000000UL) >> 24;
+customCharData[98] = (NotiCounter & 0x00ff0000UL) >> 16;
+customCharData[97] = (NotiCounter & 0x0000ff00UL) >>  8;
+customCharData[96] = (NotiCounter & 0x000000ffUL)      ;
+
+  if (NotificationsEnabled == gatt_notification)
+           {
+            sl_bt_gatt_server_send_characteristic_notification(
+                              ConnectionHandle,
+                              gattdb_customChar,
+                              sizeof(customCharData),
+                              &customCharData,
+                              sizeof(customCharData));
+                          sl_app_log("Notification Sent %d \r\n", NotiCounter);
+                          sl_app_log(customCharData);
+                          sl_app_log("\r\n");
+                          NotiCounter++;
+           }
+  //else printf("Notifications disabled\r\n");
+
+
+}
+
 /**************************************************************************//**
  * Application Process Action.
  *****************************************************************************/
@@ -45,31 +123,11 @@ SL_WEAK void app_process_action(void)
   // This is called infinitely.                                              //
   // Do not call blocking functions from here!                               //
   /////////////////////////////////////////////////////////////////////////////
+  ///
+
+  sendNotification();
+
 }
-
-#define ARRAYSIZE 100
-
-#define TIMINGTOUPDATE 246
-
-static uint8_t customCharData[ARRAYSIZE];
-static uint8_t ConnectionHandle;
-
-
-void updateCustomData(uint8_t data)
-{
-
-  for (int i=0; i<ARRAYSIZE; i++)
-    {
-      customCharData[i] = data;
-    }
-
-  sl_bt_gatt_server_write_attribute_value(gattdb_customChar,
-                                          0,
-                                           sizeof(customCharData),
-                                           &customCharData
-                                           );
-}
-
 /**************************************************************************//**
  * Bluetooth stack event handler.
  * This overrides the dummy weak implementation.
@@ -90,9 +148,11 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     case sl_bt_evt_system_boot_id:
 
       sl_app_log("Device has booted up\r\n");
+      sl_app_log("Simple App 100 Bytes\r\n");
 
-      updateCustomData(0);
-      sl_bt_system_set_soft_timer ( TIMINGTOUPDATE, 254, 0);
+      //updateCustomData(0);
+      fillCustomData();
+      //sl_bt_system_set_soft_timer ( TIMINGTOUPDATE, 254, 0);
 
       // Extract unique ID from BT Address.
       sc = sl_bt_system_get_identity_address(&address, &address_type);
@@ -158,12 +218,14 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     case sl_bt_evt_gatt_server_characteristic_status_id:
           if (evt->data.evt_gatt_server_characteristic_status.characteristic == gattdb_customChar)
             {
+              NotificationsEnabled =evt->data.evt_gatt_server_characteristic_status.client_config_flags;
             // client characteristic configuration changed by remote GATT client
             if ((gatt_server_characteristic_status_flag_t)evt->data.evt_gatt_server_characteristic_status.status_flags == 1)
               {
                 //Starting a Soft-Timer to send the data back to Central
                 sl_app_log("Central Subscribed to Characteristic\r\n");
-                sl_bt_system_set_soft_timer ( TIMINGTOUPDATE, 0, 0);
+
+                //sl_bt_system_set_soft_timer ( TIMINGTOUPDATE, 0, 0);
                 sl_bt_gatt_server_read_attribute_value  ( gattdb_customChar,
                                                                        0,
                                                                         1,
@@ -202,10 +264,10 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
           if (evt->data.evt_system_soft_timer.handle == 254)
             {
-              static uint8_t counter = 0;
+             // static uint8_t counter = 0;
 
-              counter++;
-              updateCustomData(counter);
+              //counter++;
+              //updateCustomData(counter);
             }
       break;
 
@@ -234,6 +296,8 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // -------------------------------
     // This event indicates that a connection was closed.
     case sl_bt_evt_connection_closed_id:
+
+      NotificationsEnabled = gatt_disable;
 
       sl_app_log("Connection closed, soft timer disabled \r\n");
       sl_bt_system_set_soft_timer ( 0, 0, 0);

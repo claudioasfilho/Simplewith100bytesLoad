@@ -3,8 +3,8 @@ gecko_sdk_3.0.0/protocol/bluetooth/src/sl_bt_mbedtls_context.o: \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/toolchain/inc/sl_gcc_preinclude.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//protocol/bluetooth/inc/sl_bt_mbedtls_context.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//util/third_party/mbedtls/include/mbedtls/aes.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/mbedtls_config.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/autogen/mbedtls_config_autogen.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/mbedtls_config.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/autogen/mbedtls_config_autogen.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//util/third_party/mbedtls/configs/config-device-acceleration.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/Device/SiliconLabs/BGM22/Include/em_device.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/Device/SiliconLabs/BGM22/Include/bgm220pc22hna.h \
@@ -79,9 +79,9 @@ gecko_sdk_3.0.0/protocol/bluetooth/src/sl_bt_mbedtls_context.o: \
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//util/third_party/mbedtls/include/mbedtls/aes.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/mbedtls_config.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/mbedtls_config.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/autogen/mbedtls_config_autogen.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/autogen/mbedtls_config_autogen.h:
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//util/third_party/mbedtls/configs/config-device-acceleration.h:
 

@@ -1,7 +1,7 @@
 gecko_sdk_3.0.0/platform/service/power_manager/src/sl_power_manager_debug.o: \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0/platform/service/power_manager/src/sl_power_manager_debug.c \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/toolchain/inc/sl_gcc_preinclude.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_power_manager_config.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_power_manager_config.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/power_manager/inc/sl_power_manager_debug.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/power_manager/inc/sl_power_manager.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/Device/SiliconLabs/BGM22/Include/em_device.h \
@@ -67,14 +67,14 @@ gecko_sdk_3.0.0/platform/service/power_manager/src/sl_power_manager_debug.o: \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/emlib/inc/em_assert.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_status.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/sleeptimer/inc/sl_sleeptimer.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_sleeptimer_config.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_sleeptimer_config.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_enum.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0/platform/service/power_manager/src/sli_power_manager_private.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/power_manager/inc/sl_power_manager.h
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/toolchain/inc/sl_gcc_preinclude.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_power_manager_config.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_power_manager_config.h:
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/power_manager/inc/sl_power_manager_debug.h:
 
@@ -206,7 +206,7 @@ gecko_sdk_3.0.0/platform/service/power_manager/src/sl_power_manager_debug.o: \
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/sleeptimer/inc/sl_sleeptimer.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_sleeptimer_config.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_sleeptimer_config.h:
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_enum.h:
 

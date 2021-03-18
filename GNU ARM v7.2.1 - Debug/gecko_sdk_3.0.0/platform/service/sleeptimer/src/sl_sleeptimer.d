@@ -62,7 +62,7 @@ gecko_sdk_3.0.0/platform/service/sleeptimer/src/sl_sleeptimer.o: \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/emlib/inc/em_core.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/emlib/inc/em_common.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/sleeptimer/inc/sl_sleeptimer.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_sleeptimer_config.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_sleeptimer_config.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_status.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0/platform/service/sleeptimer/src/sli_sleeptimer_hal.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/sleeptimer/inc/sli_sleeptimer.h \
@@ -192,7 +192,7 @@ gecko_sdk_3.0.0/platform/service/sleeptimer/src/sl_sleeptimer.o: \
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/sleeptimer/inc/sl_sleeptimer.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_sleeptimer_config.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_sleeptimer_config.h:
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_status.h:
 

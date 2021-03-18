@@ -3,7 +3,7 @@ gecko_sdk_3.0.0/platform/service/device_init/src/sl_device_init_hfxo_s2.o: \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/toolchain/inc/sl_gcc_preinclude.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/device_init/inc/sl_device_init_hfxo.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_status.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_device_init_hfxo_config.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_device_init_hfxo_config.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/emlib/inc/em_cmu.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/Device/SiliconLabs/BGM22/Include/em_device.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/Device/SiliconLabs/BGM22/Include/bgm220pc22hna.h \
@@ -72,7 +72,7 @@ gecko_sdk_3.0.0/platform/service/device_init/src/sl_device_init_hfxo_s2.o: \
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_status.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_device_init_hfxo_config.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_device_init_hfxo_config.h:
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/emlib/inc/em_cmu.h:
 

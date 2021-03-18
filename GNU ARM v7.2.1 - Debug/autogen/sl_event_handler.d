@@ -76,13 +76,13 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/emlib/inc/em_gpio.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/radio/rail_lib/common/rail_features.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/radio/rail_lib/common/rail_types.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_rail_util_pa_config.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_rail_util_pa_config.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/radio/rail_lib/plugin/pa-conversions/efr32xg22/sl_rail_util_pa_curves.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/radio/rail_lib/plugin/pa-conversions/pa_curve_types_efr32.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/radio/rail_lib/plugin/rail_util_pti/sl_rail_util_pti.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/sleeptimer/inc/sl_sleeptimer.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_sleeptimer_config.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_sleeptimer_config.h \
  ../autogen/sl_bluetooth.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/power_manager/inc/sl_power_manager.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/emlib/inc/em_core.h \
@@ -90,8 +90,8 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_slist.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/emlib/inc/em_assert.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_enum.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_bluetooth_config.h \
- /Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/autogen/sl_component_catalog.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_bluetooth_config.h \
+ /Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/autogen/sl_component_catalog.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//protocol/bluetooth/inc/sl_bt_stack_config.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//protocol/bluetooth/inc/sl_bt_ll_config.h \
  /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//protocol/bluetooth/inc/sl_bt_api.h \
@@ -265,7 +265,7 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/radio/rail_lib/common/rail_types.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_rail_util_pa_config.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_rail_util_pa_config.h:
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.h:
 
@@ -277,7 +277,7 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/service/sleeptimer/inc/sl_sleeptimer.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_sleeptimer_config.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_sleeptimer_config.h:
 
 ../autogen/sl_bluetooth.h:
 
@@ -293,9 +293,9 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//platform/common/inc/sl_enum.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/config/sl_bluetooth_config.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/config/sl_bluetooth_config.h:
 
-/Users/clfilho/SimplicityStudio/v5_workspace/simplebleempty_2/autogen/sl_component_catalog.h:
+/Users/clfilho/SimplicityStudio/v5_BLE/Simplewith100bytesLoad/autogen/sl_component_catalog.h:
 
 /Applications/SimplicityStudio5.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.0//protocol/bluetooth/inc/sl_bt_stack_config.h:
 
